@@ -1,0 +1,76 @@
+/* ===== MEDIDAS OBLIGATORIAS ===== */
+.caja, .boton, .tarjeta, .caja-contenido, .estructura {
+
+    margin-top: 20px;
+    margin-right: 30px;
+    margin-bottom: 40px;
+    margin-left: 50px;
+
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+
+    border-top: 2px solid red;
+    border-right: 4px dotted blue;
+    border-bottom: 6px double green;
+    border-left: 3px dashed black;
+
+    border-top-left-radius: 10px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 40px;
+}
+
+/* ===== PORTADA ===== */
+.caja {
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+/* BOTONES */
+.boton {
+    display: inline-block;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+}
+
+/* ===== EJERCICIO 1 ===== */
+.tarjeta {
+    min-width: 300px;
+    min-height: 150px;
+    background-color: #333;
+    color: white;
+}
+
+/* TEXTO RESALTADO */
+span {
+    color: yellow;
+    font-weight: bold;
+}
+
+/* ===== EJERCICIO 2 ===== */
+.caja-contenido {
+    min-width: 300px;
+    min-height: 150px;
+    background-color: #ddd;
+    color: black;
+}
+
+.contenedor {
+    background-color: #fafafa;
+}
+
+/* ===== EJERCICIO 3 ===== */
+.estructura {
+    min-width: 300px;
+    min-height: 150px;
+    background-color: #ddd;
+    color: black;
+}
+
+/* DISTRIBUCIÓN */
+.layout {
+    display: flex;
+}
